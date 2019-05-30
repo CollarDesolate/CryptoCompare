@@ -4,12 +4,13 @@ import json
 from pprint import pprint
 
 print("Welcome to my crypto web app!")
-
+print("-")
 print("Here, you can compare crypto data for any coin on CoinMarketCap")
-
+print("-")
 print("Simply enter your symbols of the coins you'd like data for below, separated by a comma")
-
+print("-")
 symbol1 = input("Enter your crypto symbols: ")
+print("-")
 
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=' + symbol1 + ''
 
@@ -18,7 +19,7 @@ parameters = {
 }
 headers = {
   'Accepts': 'application/json',
-  'X-CMC_PRO_API_KEY': '53cbb7f5-d88a-4f06-8bd4-c1da594d075f',
+  'X-CMC_PRO_API_KEY': '53cbb7f5-d88a-4f06-8bd4-c1da594d075f'
 }
 
 session = Session()
