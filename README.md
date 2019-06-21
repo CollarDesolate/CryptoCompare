@@ -1,2 +1,2 @@
-# CryptoWebApp
-Simple cryptocurrency web app served via an API.
+# CryptoCompare
+Simple cryptocurrency comparing app via an API.
